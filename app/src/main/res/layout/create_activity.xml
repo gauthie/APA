@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        >
+
+
+        <EditText
+            android:id="@+id/titleActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:hint="Title"
+            android:background="#39A6CE"
+            android:textColor="#FFFFFF"  />
+
+        <EditText
+            android:id="@+id/descriptionActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:hint="Description"
+            android:background="#39A6CE"
+            android:textColor="#FFFFFF"  />
+
+        <EditText
+            android:id="@+id/durationActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:hint="Durationn"
+            android:background="#39A6CE"
+            android:textColor="#FFFFFF"  />
+
+        <EditText
+            android:id="@+id/dateActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:hint="Date"
+            android:background="#39A6CE"
+            android:textColor="#FFFFFF"  />
+        <Spinner
+            android:id="@+id/spinnerActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Facility"
+            android:background="#39A6CE"
+            android:textColor="#FFFFFF"  >
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/btnPostActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:text="Post"
+            android:background="#46629E"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

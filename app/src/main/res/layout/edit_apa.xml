@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        >
+
+
+        <EditText
+            android:id="@+id/titleApa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:hint="Title"
+            android:background="#39A6CE"
+            android:textColor="#FFFFFF"  />
+
+        <EditText
+            android:id="@+id/descriptionApa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:hint="Description"
+            android:background="#39A6CE"
+            android:textColor="#FFFFFF"  />
+
+        <Spinner
+            android:id="@+id/spinnerAddApa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/APA"
+            android:background="#39A6CE"
+            android:textColor="#FFFFFF"  >
+
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Category"
+            android:background="#39A6CE"
+            android:textColor="#FFFFFF"  >
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/btnEditActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:text="Post"
+            android:background="#46629E"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

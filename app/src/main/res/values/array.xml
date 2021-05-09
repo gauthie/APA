@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Role">
+        <item>User</item>
+        <item>Doctor</item>
+        <item>Speaker</item>
+    </string-array>
+
+    <string-array name="APA">
+        <item>TestValueApa1</item>
+        <item>TestValueApa2</item>
+        <item>TestValueApa3</item>
+        <item>TestValueApa4</item>
+    </string-array>
+
+    <string-array name="User">
+        <item>TestValueUser1</item>
+        <item>TestValueUser2</item>
+        <item>TestValueUser3</item>
+        <item>TestValueUser4</item>
+    </string-array>
+
+    <string-array name="Facility">
+        <item>TestValueFacility1</item>
+        <item>TestValueFacility2</item>
+    </string-array>
+
+    <string-array name="Category">
+        <item>TestValueCategory1</item>
+        <item>TestValueCategory2</item>
+    </string-array>
+</resources>

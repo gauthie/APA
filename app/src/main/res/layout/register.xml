@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        >
+
+
+        <EditText
+            android:id="@+id/usernameReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:hint="Username"
+            android:background="#39A6CE"
+            android:textColor="#FFFFFF"  />
+
+        <EditText
+            android:id="@+id/mailReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:hint="e-mail"
+            android:background="#39A6CE"
+            android:textColor="#FFFFFF"  />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Role"
+            android:background="#39A6CE"
+            android:textColor="#FFFFFF"  >
+
+        </Spinner>
+
+        <EditText
+            android:id="@+id/userPasswordReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:hint="Password"
+            android:background="#39A6CE"
+            android:textColor="#FFFFFF" />
+        <EditText
+            android:id="@+id/userConfirmPasswordReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:hint="Confirm Password"
+            android:background="#39A6CE"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:text="Sign in"
+            android:background="#46629E"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

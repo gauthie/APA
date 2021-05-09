@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        >
+
+
+
+        <Spinner
+            android:id="@+id/spinnerCheckApa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/APA"
+            android:background="#39A6CE"
+            android:textColor="#FFFFFF"  >
+        </Spinner>
+
+        <EditText
+            android:id="@+id/commentaryApa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:hint="Commentary"
+            android:background="#39A6CE"
+            android:textColor="#FFFFFF"  />
+
+        <Button
+            android:id="@+id/btnSendReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:text="Send"
+            android:background="#46629E"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
